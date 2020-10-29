@@ -51,3 +51,8 @@ h3 {
 .box-multiple {
     box-shadow: inset 1px 1px 20px 0px rgb(0 0 0 / 27%), 0px 0px 20px 7px rgb(255 255 255 / 27%);
 }
+
+.box-solid {
+    box-shadow: 9px 8px #7700ff, 20px 17px black;
+    border-radius: 5px;
+}
