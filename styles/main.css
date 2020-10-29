@@ -26,3 +26,27 @@ h2 {
 h3 {
     font-size: 1.953rem;
 }
+
+/* Boxes with shadows */
+.box-container {
+    padding: 100px;
+}
+
+.box-container-grey {
+    background-color: #c9c9c9;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    box-shadow: 6px 6px 20px 0px rgb(0 0 0 / 37%);
+}
+
+.box-inset {
+    box-shadow: inset 6px 6px 20px 0px rgb(0 0 0 / 37%);
+}
+
+.box-multiple {
+    box-shadow: inset 1px 1px 20px 0px rgb(0 0 0 / 27%), 0px 0px 20px 7px rgb(255 255 255 / 27%);
+}
