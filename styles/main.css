@@ -27,16 +27,32 @@ h3 {
     font-size: 1.953rem;
 }
 
-/* Boxes with shadows */
+/* Containers */
+.text-shadow-container,
 .box-container {
     padding: 100px;
     margin-bottom: 60px;
+}
+
+.text-shadow-headline {
+    font-size: 4.2rem;
+    color: #3d3c3c;
+    font-weight: 700;
+    text-shadow: 0px 3px 0 #ffffff, -1px 5px 0 #9902ff;
+    letter-spacing: 2px;
+}
+
+.text-shadow-headline-outline {
+    font-size: 9rem;
+    color: mistyrose;
+    text-shadow: 0 0 1px #000000, 0 0 1px #000000;
 }
 
 .box-container-grey {
     background-color: #c9c9c9;
 }
 
+/* Boxes with shadows */
 .box {
     width: 200px;
     height: 200px;
