@@ -30,6 +30,7 @@ h3 {
 /* Boxes with shadows */
 .box-container {
     padding: 100px;
+    margin-bottom: 60px;
 }
 
 .box-container-grey {
